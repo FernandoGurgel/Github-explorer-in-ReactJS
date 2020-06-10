@@ -25,7 +25,10 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "camelcase":"off",
     "react-hooks/rules-of-hooks": "error",
+    "prefer-const":"off",
+    "no-unused-vars":"off",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [ 1, { "extensions": [".tsx"]}],
     "import/prefer-default-export": "off",
