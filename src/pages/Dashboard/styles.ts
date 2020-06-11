@@ -27,10 +27,11 @@ const Form = styled.form<FormProps>`
     color: #a3a3a3;
     border: 2px solid #fff;
     border-right: 0;
+    transition: transform 0.2s;
 
     ${(props) =>
-      props.hasError &&
-      css`
+    props.hasError &&
+    css`
         border-color: #c53030;
       `}
 
@@ -43,7 +44,7 @@ const Form = styled.form<FormProps>`
     width: 210px;
     height: 70px;
     background: #04d361;
-    border-radius: 5px 0 0 5px;
+    border-radius: 0px 5px 5px 0px;
     border: 0;
     color: #fff;
     font-weight: bold;
